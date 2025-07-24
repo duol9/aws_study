@@ -2,19 +2,20 @@
 
 EC2 창의 인스턴스 시작을눌러 인스턴스를 생성할 수 있다.
 
-![image.png](attachment:c95b4b45-2e59-4fae-a862-de08287e4d7f:image.png)
+<img width="768" height="352" alt="Image" src="https://github.com/user-attachments/assets/ad012020-e84e-4c9d-a362-2518de34cacc" />
+
 
 1. 리전 선택: 애플리케이션의 사용자들의 위치와 지리적으로 가까운 리전을 선택하는 것이 좋기에 아시아 태평양(서울)로 지정
 
-![image.png](attachment:7e100004-fc77-4470-bc3d-ad2f377ff418:image.png)
+<img width="676" height="734" alt="Image" src="https://github.com/user-attachments/assets/57af6eaa-e734-439a-ada5-713b81bb0cf0" />
 
 1. 이름은 사용할 이름으로
 
-![image.png](attachment:ba4ed4ff-3b30-42ad-95e2-c000dd750056:image.png)
+<img width="1496" height="216" alt="Image" src="https://github.com/user-attachments/assets/f6e16ac6-3391-49f4-8f90-cd488eddf78c" />
 
 1. OS는 Ubuntu로 진행해보자
 
-![image.png](attachment:2b3b9ac9-6d45-49ee-9fef-9c9a91662026:image.png)
+<img width="1958" height="1298" alt="Image" src="https://github.com/user-attachments/assets/eef9fc55-1906-463e-a240-7bd60a8b48f7" />
 
 window나 mac OS보다는 가벼운 Ubuntu를 많이 사용한다고한다.
 
@@ -22,12 +23,12 @@ window나 mac OS보다는 가벼운 Ubuntu를 많이 사용한다고한다.
    인스턴스란 AWS에서 제공하는 가상 서버(컴퓨팅 자원)라고 생각하면 된다.
    상황에 맞게 선택하면 되지만 프리티어에 해당하는 t2.micro를 선택했다.
 
-![image.png](attachment:acca2e02-a200-42cb-8c9f-2817b95b3c84:image.png)
+<img width="1884" height="414" alt="Image" src="https://github.com/user-attachments/assets/943cc58c-e2a4-419d-9324-c9af26dbd6e7" />
 
 1. 키페어
    키페어는 비밀번호라 생각하면 된다.
 
-![image.png](attachment:4351f27a-312e-4d2f-94c6-72ea7959d7c1:image.png)
+<img width="1212" height="1138" alt="Image" src="https://github.com/user-attachments/assets/9e64c815-609f-4a55-b9a8-1a2a68645862" />
 
 간단하게 이렇게 설정해주자
 
@@ -38,11 +39,12 @@ window나 mac OS보다는 가벼운 Ubuntu를 많이 사용한다고한다.
    네트워크 설정에서 **편집**을 누르자. 그리고 인바운드 보안 그룹 규칙에서 ssh는 기본으로 열려있고, HTTP와 HTTPS를 추가하자
 
 
-![image.png](attachment:11769969-6f86-47d5-a462-5c1b9814d0ae:image.png)
+<img width="1934" height="1096" alt="Image" src="https://github.com/user-attachments/assets/50925914-33e1-4ed0-b874-a6db1ce98f8f" />
 
 1. 스토리지
 
-![image.png](attachment:5180b0b5-0767-4567-af6d-763f0603748a:image.png)
+<img width="1964" height="802" alt="Image" src="https://github.com/user-attachments/assets/8d5ea84d-a96f-4b14-8e6f-a76251e8adcf" />
+
 
 스토리지는 파일을 저장하는 공간이다. 프리티어가 가능한 최대인 30으로 설정해보자.
 
@@ -52,12 +54,11 @@ window나 mac OS보다는 가벼운 Ubuntu를 많이 사용한다고한다.
 9. 탄력적 IP 설정
    EC2 인스턴스를 생성하면 IP를 할당 받는데, 이 IP는 임시적인 IP라 EC2를 중지시켰다가 다시 실행하면 바뀐다. 이럴때마다 IP가 계속 변하면 당연히 불편하다. 그래서 고정 IP를 할당 하기 위해 탄력적 IP를 설정한다.
 
-![image.png](attachment:4abdcc8f-88b1-405d-b4c1-4b4586f4aaed:image.png)
+<img width="2964" height="884" alt="Image" src="https://github.com/user-attachments/assets/d6b846f4-90cd-4237-a2c9-dabdbce173c6" />
 
 여기서 설정하면 된다. 그냥 기본값 나오는거 생성누르면 된다.
 
-![image.png](attachment:90ca75fc-b737-4e8c-9160-e786e98d6e38:image.png)
-
+<img width="2914" height="1024" alt="Image" src="https://github.com/user-attachments/assets/36d1ee68-4fe4-45e5-81cc-3fd4e4f067cf" />
 여기서 아까 생성한 EC2 인스턴스와 연결하면 된다.
 
 ### Spring boot 띄우기
