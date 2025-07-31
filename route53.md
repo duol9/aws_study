@@ -1,7 +1,3 @@
-<aside>
-
-</aside>
-
 ### Amazone Route 53란?
 
 컴퓨터는 IP 주소로 통신을 함. 하지만 IP주소를 다 기억하는건 어려움. 
@@ -80,7 +76,8 @@ Route 53은 네임서버를 관리하고 AWS 서비스와 연동하는 역할을
 
 레코드 종류
 
-![image.png](attachment:d50a0770-5a97-48db-b328-fed696aae422:image.png)
+![image.png](<img width="1308" height="804" alt="image" src="https://github.com/user-attachments/assets/e5abf66d-f581-4a6f-b0f1-acce20595054" />
+)
 
 A 레코드 → 도메인과 IPv4 주소를 매핑  (xxx.com → 123.23.532.123)
 
