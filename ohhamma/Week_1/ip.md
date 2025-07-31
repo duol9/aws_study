@@ -11,10 +11,10 @@
 
 ![2](./images/ip-2.png)
 
-  - **connection**
-  - **NIC** : Network Interface Card
-  - router : multiple interfaces
-  - host : one or two interfaces
+- **connection**
+- **NIC** : Network Interface Card
+- router : multiple interfaces
+- host : one or two interfaces
 
 
 ## Subnets
@@ -24,8 +24,8 @@
 - islands of isolated networks
 - interfaces, **physically** reach each other, with**out** passing router
 - IP addr structure
-    - `subnet` part : 네트워크 이름, high order bits(MSB부터 시작)
-    - `host` part : 네트워크 내의 호스트 이름, remaining low order bits
+  - `subnet` part : 네트워크 이름, high order bits(MSB부터 시작)
+  - `host` part : 네트워크 내의 호스트 이름, remaining low order bits
 
 ![4](./images/ip-4.png)
 
@@ -35,4 +35,4 @@
 - **C**lassless **I**nter**D**omain **R**outing
 - subnet in **arbitary** length
 - format: `a.b.c.d/x`
-    - x: # bits of subnet, 8의 배수 아니어도됨
+  - x: # bits of subnet, 8의 배수 아니어도됨
