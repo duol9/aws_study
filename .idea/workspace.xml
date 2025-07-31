@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e14bf0f6-3e56-478f-bc39-120d30765a75" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/youcastle03/week1/EC2에 스프링부트를 배포해보자.md" beforeDir="false" afterPath="$PROJECT_DIR$/youcastle03/week1/EC2에 스프링부트를 배포해보자.md" afterDir="false" />
-    </list>
+    <list default="true" id="e14bf0f6-3e56-478f-bc39-120d30765a75" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +13,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="30Jxp7F5k3b7KrALARRpHbzZ220" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,7 +24,6 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "youcastle03",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/aws_study",
